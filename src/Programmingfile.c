@@ -3,5 +3,6 @@
 int main(void){
     printf("Hi, my first opensource.");
     printf("수정된 문장 추가");
+    printf("2번째 수정된 문장 추가");
     return 0;
 }

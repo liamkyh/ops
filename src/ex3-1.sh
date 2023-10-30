@@ -2,7 +2,10 @@
 
 count="$1"
 
-for ((i=1;i<=$count;i++)); do
+for i in $(seq "$count")
+do
     echo "hello world"
 done
+
 exit 0
+
